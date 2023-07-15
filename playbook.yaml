@@ -1,0 +1,10 @@
+- hosts: localhost
+  gather_facts: false
+  tasks:
+    - debug:
+        msg:
+          auth_keycloak_url: "{{ auth_keycloak_url }}"
+          auth_realm: "{{ auth_realm }}"
+          auth_username: "{{ auth_username }}"
+          auth_password: "{{ auth_password }}"
+          auth_client_id: "{{ auth_client_id }}"

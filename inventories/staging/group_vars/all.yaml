@@ -1,0 +1,5 @@
+auth_keycloak_url: http://keycloak-staging-server/
+auth_realm: staging-realm
+auth_username: staging-user
+auth_password: staging-secret
+auth_client_id: staging-client-id

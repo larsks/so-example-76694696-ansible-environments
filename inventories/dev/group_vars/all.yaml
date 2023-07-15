@@ -1,0 +1,5 @@
+auth_keycloak_url: http://keycloak-dev-server/
+auth_realm: dev-realm
+auth_username: dev-user
+auth_password: dev-secret
+auth_client_id: dev-client-id

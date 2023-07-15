@@ -1,0 +1,6 @@
+hosts:
+  all:
+    children:
+      keycloak:
+        hosts:
+          keycloak-staging-server:
